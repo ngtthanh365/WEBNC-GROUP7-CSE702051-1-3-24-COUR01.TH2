@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Thanh toán - TechMart')
+@section('title', 'Thanh toán - HT Store')
 
 @push('styles')
 <style>

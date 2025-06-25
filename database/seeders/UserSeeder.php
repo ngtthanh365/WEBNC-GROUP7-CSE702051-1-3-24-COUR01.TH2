@@ -13,42 +13,42 @@ class UserSeeder extends Seeder
     {
         // Tạo tài khoản admin
         User::create([
-            'name' => 'Admin TechMart',
-            'email' => 'admin@techmart.vn',
+            'name' => 'Admin HT Store',
+            'email' => 'admin@htstore.vn',
             'password' => Hash::make('admin123'),
             'role' => 'admin',
             'phone' => '0901234567',
-            'address' => '123 Đường Công Nghệ, Quận 1, TP.HCM',
+            'address' => '01 Đường Nguyễn Trãi, quận Hà Đông, TP.Hà Nội',
         ]);
 
         // Tạo tài khoản khách hàng mẫu
         User::create([
-            'name' => 'Nguyễn Văn An',
-            'email' => 'nguyenvanan@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Nguyễn Tuấn Thành',
+            'email' => 'tuanthanh365bt@gmail.com',
+            'password' => Hash::make('03062005'),
             'role' => 'customer',
-            'phone' => '0912345678',
-            'address' => '456 Đường Lê Lợi, Quận 3, TP.HCM',
+            'phone' => '0365951188',
+            'address' => 'TT.Bô Thời,xã Hồng Tiến, huyện Khoái Châu, tỉnh Hưng Yên',
         ]);
 
         User::create([
-            'name' => 'Trần Thị Bình',
-            'email' => 'tranthibinh@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Nguyễn Huy Hoàng',
+            'email' => 'hoang20052810@gmail.com',
+            'password' => Hash::make('28102005'),
             'role' => 'customer',
-            'phone' => '0923456789',
-            'address' => '789 Đường Nguyễn Huệ, Quận 1, TP.HCM',
+            'phone' => '0838573798',
+            'address' => '2/141 đường Phan Đình Phùng,phường Trần Hưng Đạo, TP.Nam Định',
         ]);
 
         // Tạo thêm 15 khách hàng ngẫu nhiên
         $vietnameseNames = [
-            'Phạm Văn Đức',
-            'Hoàng Thị Lan',
-            'Vũ Minh Tuấn',
-            'Đặng Thị Mai',
-            'Bùi Văn Hùng',
-            'Ngô Thị Hoa',
-            'Dương Minh Khoa',
+            'Đặng Đắc Tú',
+            'Bùi Thanh Tuân',
+            'Nguyễn Đăng Nhật',
+            'Bùi Thu Hiền',
+            'Nguyễn Thùy Nhung',
+            'Nguyễn Thị Thùy Liên',
+            'Đặng Thanh Uyên',
             'Lý Thị Nga',
             'Trịnh Văn Long',
             'Phan Thị Oanh',

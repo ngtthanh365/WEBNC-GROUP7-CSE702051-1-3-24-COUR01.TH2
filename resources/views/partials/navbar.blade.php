@@ -18,7 +18,7 @@
         </div> --}}
 
         <a class="navbar-brand text-danger fw-bold" href="{{ route('home') }}">
-            <i class="fas fa-store me-2"></i>TechMart
+            <i class="fas fa-store me-2"></i>HT Store
         </a>
 
         <form class="d-flex mx-auto" action="{{ route('search') }}" method="GET">

@@ -14,7 +14,7 @@
                     </svg>
                 </div>
                 <h1 class="h3 fw-bold text-dark">Đặt hàng thành công!</h1>
-                <p class="text-muted">Cảm ơn bạn đã mua hàng tại TechMart</p>
+                <p class="text-muted">Cảm ơn bạn đã mua hàng tại HT Store</p>
             </div>
 
             <!-- Order Information -->
@@ -135,7 +135,7 @@
             <!-- Contact Information -->
             <div class="text-center small text-muted">
                 <p>Có thắc mắc về đơn hàng? Liên hệ với chúng tôi:</p>
-                <p><strong>Hotline:</strong> 1900-1234 | <strong>Email:</strong> support@techmart.com</p>
+                <p><strong>Hotline:</strong> 1900-8386 | <strong>Email:</strong> support@htstore.com</p>
             </div>
         </div>
     </div>

@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'TechMart - Trang chủ')
+@section('title', 'HT Store - Trang chủ')
 
 @section('content')
 <div class="container">
     <!-- Banner -->
     <div class="bg-danger text-white rounded p-5 text-center mb-5">
-        <h1 class="display-5 fw-bold">Chào mừng đến với TechMart</h1>
-        <p class="lead">Khám phá sản phẩm công nghệ mới nhất với giá siêu tốt</p>
+        <h1 class="display-5 fw-bold">Chào mừng đến với HT Store</h1>
+        <p class="lead">Website order giày thể thao mới nhất với giá siêu tốt</p>
     </div>
 
     <!-- Danh mục nổi bật -->

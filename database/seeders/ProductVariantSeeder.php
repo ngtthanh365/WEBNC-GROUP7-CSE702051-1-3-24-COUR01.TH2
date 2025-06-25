@@ -10,294 +10,495 @@ class ProductVariantSeeder extends Seeder
 {
     public function run(): void
     {
-        // iPhone 15 Pro Max variants
-        $iphone15ProMax = Product::where('name', 'iPhone 15 Pro Max')->first();
-        if ($iphone15ProMax) {
+        // Adidas Adizero
+        $AdidasAdizero = Product::where('name', 'Adidas Adizero')->first();
+        if ($AdidasAdizero) {
             ProductVariant::create([
-                'product_id' => $iphone15ProMax->product_id,
-                'variant_name' => '256GB - Titan Tự Nhiên',
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 38',
                 'additional_price' => 0,
                 'stock_quantity' => 15,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15ProMax->product_id,
-                'variant_name' => '512GB - Titan Xanh',
-                'additional_price' => 6000000,
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 39',
+                'additional_price' => 0,
                 'stock_quantity' => 12,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15ProMax->product_id,
-                'variant_name' => '1TB - Titan Đen',
-                'additional_price' => 12000000,
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasAdizero->product_id,
+                'variant_name' => 'Adidas Adizero - 43',
+                'additional_price' => 99000,
                 'stock_quantity' => 8,
             ]);
         }
 
-        // iPhone 15 Pro variants
-        $iphone15Pro = Product::where('name', 'iPhone 15 Pro')->first();
-        if ($iphone15Pro) {
+        // Adidas Samba OG Black White Gum
+        $AdidasSambaOGBlackWhiteGum = Product::where('name', 'Adidas Samba OG Black White Gum')->first();
+        if ($AdidasSambaOGBlackWhiteGum) {
             ProductVariant::create([
-                'product_id' => $iphone15Pro->product_id,
-                'variant_name' => '128GB - Titan Tự Nhiên',
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 38',
                 'additional_price' => 0,
                 'stock_quantity' => 20,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15Pro->product_id,
-                'variant_name' => '256GB - Titan Xanh',
-                'additional_price' => 3000000,
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 39',
+                'additional_price' => 0,
                 'stock_quantity' => 15,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15Pro->product_id,
-                'variant_name' => '512GB - Titan Trắng',
-                'additional_price' => 6000000,
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 40',
+                'additional_price' => 49000,
                 'stock_quantity' => 10,
             ]);
-        }
-
-        // iPhone 15 variants
-        $iphone15 = Product::where('name', 'iPhone 15')->first();
-        if ($iphone15) {
             ProductVariant::create([
-                'product_id' => $iphone15->product_id,
-                'variant_name' => '128GB - Hồng',
-                'additional_price' => 0,
-                'stock_quantity' => 25,
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15->product_id,
-                'variant_name' => '256GB - Xanh',
-                'additional_price' => 3000000,
-                'stock_quantity' => 20,
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
             ]);
             ProductVariant::create([
-                'product_id' => $iphone15->product_id,
-                'variant_name' => '512GB - Đen',
-                'additional_price' => 6000000,
-                'stock_quantity' => 15,
+                'product_id' => $AdidasSambaOGBlackWhiteGum->product_id,
+                'variant_name' => 'Adidas Samba OG Black White Gum - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
             ]);
         }
 
-        // Samsung Galaxy S24 Ultra variants
-        $samsungS24Ultra = Product::where('name', 'Samsung Galaxy S24 Ultra')->first();
-        if ($samsungS24Ultra) {
+        // Adidas ULTRABOOST LIGHT
+        $AdidasULTRABOOSTLIGHT = Product::where('name', 'Adidas ULTRABOOST LIGHT')->first();
+        if ($AdidasULTRABOOSTLIGHT) {
             ProductVariant::create([
-                'product_id' => $samsungS24Ultra->product_id,
-                'variant_name' => '256GB - Titan Xám',
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 38',
                 'additional_price' => 0,
-                'stock_quantity' => 18,
+                'stock_quantity' => 0,
             ]);
             ProductVariant::create([
-                'product_id' => $samsungS24Ultra->product_id,
-                'variant_name' => '512GB - Titan Tím',
-                'additional_price' => 4000000,
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 39',
+                'additional_price' => 0,
                 'stock_quantity' => 12,
             ]);
             ProductVariant::create([
-                'product_id' => $samsungS24Ultra->product_id,
-                'variant_name' => '1TB - Titan Đen',
-                'additional_price' => 8000000,
-                'stock_quantity' => 8,
-            ]);
-        }
-
-        // Samsung Galaxy S24+ variants
-        $samsungS24Plus = Product::where('name', 'Samsung Galaxy S24+')->first();
-        if ($samsungS24Plus) {
-            ProductVariant::create([
-                'product_id' => $samsungS24Plus->product_id,
-                'variant_name' => '256GB - Xám',
-                'additional_price' => 0,
-                'stock_quantity' => 20,
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 0,
             ]);
             ProductVariant::create([
-                'product_id' => $samsungS24Plus->product_id,
-                'variant_name' => '512GB - Tím',
-                'additional_price' => 3000000,
-                'stock_quantity' => 15,
-            ]);
-        }
-
-        // MacBook Pro 16 inch M3 variants
-        $macbookPro16 = Product::where('name', 'MacBook Pro 16 inch M3')->first();
-        if ($macbookPro16) {
-            ProductVariant::create([
-                'product_id' => $macbookPro16->product_id,
-                'variant_name' => 'M3 Pro - 18GB RAM - 512GB SSD - Xám',
-                'additional_price' => 0,
-                'stock_quantity' => 10,
-            ]);
-            ProductVariant::create([
-                'product_id' => $macbookPro16->product_id,
-                'variant_name' => 'M3 Pro - 36GB RAM - 1TB SSD - Bạc',
-                'additional_price' => 15000000,
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 41',
+                'additional_price' => 49000,
                 'stock_quantity' => 8,
             ]);
             ProductVariant::create([
-                'product_id' => $macbookPro16->product_id,
-                'variant_name' => 'M3 Max - 48GB RAM - 1TB SSD - Xám',
-                'additional_price' => 25000000,
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 42',
+                'additional_price' => 99000,
                 'stock_quantity' => 5,
             ]);
+            ProductVariant::create([
+                'product_id' => $AdidasULTRABOOSTLIGHT->product_id,
+                'variant_name' => 'Adidas ULTRABOOST LIGHT - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 7,
+            ]);
         }
 
-        // MacBook Pro 14 inch M3 variants
-        $macbookPro14 = Product::where('name', 'MacBook Pro 14 inch M3')->first();
-        if ($macbookPro14) {
+        // Nike Blazer Low 77 Vintage
+        $NikeBlazerLow77Vintage = Product::where('name', 'Nike Blazer Low 77 Vintage')->first();
+        if ($NikeBlazerLow77Vintage) {
             ProductVariant::create([
-                'product_id' => $macbookPro14->product_id,
-                'variant_name' => 'M3 - 8GB RAM - 512GB SSD - Xám',
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 38',
                 'additional_price' => 0,
                 'stock_quantity' => 15,
             ]);
             ProductVariant::create([
-                'product_id' => $macbookPro14->product_id,
-                'variant_name' => 'M3 Pro - 18GB RAM - 1TB SSD - Bạc',
-                'additional_price' => 12000000,
-                'stock_quantity' => 10,
-            ]);
-        }
-
-        // MacBook Air 15 inch M2 variants
-        $macbookAir15 = Product::where('name', 'MacBook Air 15 inch M2')->first();
-        if ($macbookAir15) {
-            ProductVariant::create([
-                'product_id' => $macbookAir15->product_id,
-                'variant_name' => 'M2 - 8GB RAM - 256GB SSD - Bạc',
-                'additional_price' => 0,
-                'stock_quantity' => 20,
-            ]);
-            ProductVariant::create([
-                'product_id' => $macbookAir15->product_id,
-                'variant_name' => 'M2 - 16GB RAM - 512GB SSD - Xám',
-                'additional_price' => 8000000,
-                'stock_quantity' => 15,
-            ]);
-        }
-
-        // Dell XPS 13 Plus variants
-        $dellXPS13 = Product::where('name', 'Dell XPS 13 Plus')->first();
-        if ($dellXPS13) {
-            ProductVariant::create([
-                'product_id' => $dellXPS13->product_id,
-                'variant_name' => 'i5-1340P - 16GB RAM - 512GB SSD',
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 39',
                 'additional_price' => 0,
                 'stock_quantity' => 12,
             ]);
             ProductVariant::create([
-                'product_id' => $dellXPS13->product_id,
-                'variant_name' => 'i7-1360P - 32GB RAM - 1TB SSD',
-                'additional_price' => 10000000,
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 40',
+                'additional_price' => 49000,
                 'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerLow77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Low 77 Vintage - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 11,
             ]);
         }
 
-        // iPad Pro 12.9 inch M2 variants
-        $iPadPro129 = Product::where('name', 'iPad Pro 12.9 inch M2')->first();
-        if ($iPadPro129) {
+        // Nike Blazer Mid 77 Vintage
+        $NikeBlazerMid77Vintage = Product::where('name', 'Nike Blazer Mid 77 Vintage')->first();
+        if ($NikeBlazerMid77Vintage) {
             ProductVariant::create([
-                'product_id' => $iPadPro129->product_id,
-                'variant_name' => '128GB - WiFi - Xám',
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 38',
                 'additional_price' => 0,
                 'stock_quantity' => 15,
             ]);
             ProductVariant::create([
-                'product_id' => $iPadPro129->product_id,
-                'variant_name' => '256GB - WiFi - Bạc',
-                'additional_price' => 4000000,
-                'stock_quantity' => 12,
-            ]);
-            ProductVariant::create([
-                'product_id' => $iPadPro129->product_id,
-                'variant_name' => '512GB - WiFi + Cellular - Xám',
-                'additional_price' => 10000000,
-                'stock_quantity' => 8,
-            ]);
-        }
-
-        // iPad Pro 11 inch M2 variants
-        $iPadPro11 = Product::where('name', 'iPad Pro 11 inch M2')->first();
-        if ($iPadPro11) {
-            ProductVariant::create([
-                'product_id' => $iPadPro11->product_id,
-                'variant_name' => '128GB - WiFi - Xám',
-                'additional_price' => 0,
-                'stock_quantity' => 18,
-            ]);
-            ProductVariant::create([
-                'product_id' => $iPadPro11->product_id,
-                'variant_name' => '256GB - WiFi + Cellular - Bạc',
-                'additional_price' => 6000000,
-                'stock_quantity' => 12,
-            ]);
-        }
-
-        // Samsung Galaxy Tab S9 Ultra variants
-        $tabS9Ultra = Product::where('name', 'Samsung Galaxy Tab S9 Ultra')->first();
-        if ($tabS9Ultra) {
-            ProductVariant::create([
-                'product_id' => $tabS9Ultra->product_id,
-                'variant_name' => '256GB - WiFi - Xám',
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 39',
                 'additional_price' => 0,
                 'stock_quantity' => 12,
             ]);
             ProductVariant::create([
-                'product_id' => $tabS9Ultra->product_id,
-                'variant_name' => '512GB - WiFi + 5G - Kem',
-                'additional_price' => 5000000,
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $NikeBlazerMid77Vintage->product_id,
+                'variant_name' => 'Nike Blazer Mid 77 Vintage - 43',
+                'additional_price' => 99000,
                 'stock_quantity' => 8,
             ]);
         }
 
-        // Samsung Galaxy Tab S9+ variants
-        $tabS9Plus = Product::where('name', 'Samsung Galaxy Tab S9+')->first();
-        if ($tabS9Plus) {
+        // Air Jordan 1 Mid
+        $AirJordan1Mid = Product::where('name', 'Air Jordan 1 Mid')->first();
+        if ($AirJordan1Mid) {
             ProductVariant::create([
-                'product_id' => $tabS9Plus->product_id,
-                'variant_name' => '256GB - WiFi - Xám',
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 38',
                 'additional_price' => 0,
                 'stock_quantity' => 15,
             ]);
             ProductVariant::create([
-                'product_id' => $tabS9Plus->product_id,
-                'variant_name' => '512GB - WiFi + 5G - Kem',
-                'additional_price' => 4000000,
-                'stock_quantity' => 10,
-            ]);
-        }
-
-        // Xiaomi 14 Ultra variants
-        $xiaomi14Ultra = Product::where('name', 'Xiaomi 14 Ultra')->first();
-        if ($xiaomi14Ultra) {
-            ProductVariant::create([
-                'product_id' => $xiaomi14Ultra->product_id,
-                'variant_name' => '512GB - Đen',
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 39',
                 'additional_price' => 0,
-                'stock_quantity' => 10,
+                'stock_quantity' => 12,
             ]);
             ProductVariant::create([
-                'product_id' => $xiaomi14Ultra->product_id,
-                'variant_name' => '1TB - Trắng',
-                'additional_price' => 3000000,
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1Mid->product_id,
+                'variant_name' => 'Air Jordan 1 Mid - 43',
+                'additional_price' => 99000,
                 'stock_quantity' => 8,
             ]);
         }
 
-        // ASUS ZenBook Pro 15 variants
-        $asusZenBook = Product::where('name', 'ASUS ZenBook Pro 15')->first();
-        if ($asusZenBook) {
+        // Reebok Royal Techque
+       $ReebokRoyalTechque = Product::where('name', 'Reebok Royal Techque')->first();
+        if ($ReebokRoyalTechque) {
             ProductVariant::create([
-                'product_id' => $asusZenBook->product_id,
-                'variant_name' => 'i7-13700H - 16GB RAM - 512GB SSD - RTX 4060',
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 38',
                 'additional_price' => 0,
+                'stock_quantity' => 15,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 12,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 40',
+                'additional_price' => 49000,
                 'stock_quantity' => 8,
             ]);
             ProductVariant::create([
-                'product_id' => $asusZenBook->product_id,
-                'variant_name' => 'i9-13900H - 32GB RAM - 1TB SSD - RTX 4070',
-                'additional_price' => 15000000,
-                'stock_quantity' => 5,
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokRoyalTechque->product_id,
+                'variant_name' => 'Reebok Royal Techque - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+        }
+
+        // Reebok Club C Revenge
+        $ReebokClubCRevenge = Product::where('name', 'Reebok Club C Revenge')->first();
+        if ($ReebokClubCRevenge) {
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 38',
+                'additional_price' => 0,
+                'stock_quantity' => 15,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 12,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubCRevenge->product_id,
+                'variant_name' => 'Reebok Club C Revenge - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+        }
+
+        // Reebok Club C 85 Mule
+        $ReebokClubC85Mule = Product::where('name', 'Reebok Club C 85 Mule')->first();
+        if ($ReebokClubC85Mule) {
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 38',
+                'additional_price' => 0,
+                'stock_quantity' => 15,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 12,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokClubC85Mule->product_id,
+                'variant_name' => 'Reebok Club C 85 Mule - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+        }
+
+        // Adidas Samba OG White Black Gum
+        $AdidasSambaOGWhiteBlackGum = Product::where('name', 'Adidas Samba OG White Black Gum')->first();
+        if ($AdidasSambaOGWhiteBlackGum) {
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 38',
+                'additional_price' => 0,
+                'stock_quantity' => 15,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 12,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AdidasSambaOGWhiteBlackGum->product_id,
+                'variant_name' => 'Adidas Samba OG White Black Gum - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 0,
+            ]);
+        }
+
+        // Air Jordan 1 Retro High OG
+        $AirJordan1RetroHighOG = Product::where('name', 'Air Jordan 1 Retro High OG')->first();
+        if ($AirJordan1RetroHighOG) {
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 38',
+                'additional_price' => 0,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 1,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $AirJordan1RetroHighOG->product_id,
+                'variant_name' => 'Air Jordan 1 Retro High OG - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 8,
+            ]);
+        }
+
+        // Reebok Zig Kinetica Concep Red
+        $ReebokZigKineticaConcepRed = Product::where('name', 'Reebok Zig Kinetica Concep Red')->first();
+        if ($ReebokZigKineticaConcepRed) {
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 38',
+                'additional_price' => 0,
+                'stock_quantity' => 15,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 39',
+                'additional_price' => 0,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 40',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 41',
+                'additional_price' => 49000,
+                'stock_quantity' => 8,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 42',
+                'additional_price' => 99000,
+                'stock_quantity' => 0,
+            ]);
+            ProductVariant::create([
+                'product_id' => $ReebokZigKineticaConcepRed->product_id,
+                'variant_name' => 'Reebok Zig Kinetica Concep Red - 43',
+                'additional_price' => 99000,
+                'stock_quantity' => 0,
             ]);
         }
 
