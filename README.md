@@ -57,6 +57,8 @@ Website bán giày thể thao là một nền tảng thương mại điện tử
 ![duyêtđơn](https://github.com/user-attachments/assets/8c28669a-2980-4281-b699-6083781dd7a7)
 ### thanh toán
 ![payment](https://github.com/user-attachments/assets/30159407-8544-4e85-bd86-224502dbbede)
+## GitHub Pages Dự Án
+[Truy cập dự án tại đây](https://github.com/ngtthanh365/WEBNC-GROUP7-CSE702051-1-3-24-COUR01.TH2)
 
 
 
